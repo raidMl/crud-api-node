@@ -1,17 +1,17 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const postroute = require('./routes/posts')
+const postroute =require('./Routes/posts')
 const app = express();
 
 app.use(bodyParser.json())
-// app.use(express.json())
+
 
 app.get('/', (req, res) => {
     res.send('hellow word');
 })
 
 
-app.use('/', postroute)
+app.use('/',postroute)
 
 
 

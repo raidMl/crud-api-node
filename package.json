@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "crud api using node js express js",
   "main": "index.js",
-  "Type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve" :"nodemon index.js"
